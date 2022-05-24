@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Hero from './src/components/Hero';
+import Counter from './src/components/Counter';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Counter />
+      <Hero />
       <StatusBar style="auto" />
     </View>
   );
